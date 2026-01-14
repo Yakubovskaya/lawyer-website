@@ -1,0 +1,14 @@
+node_modules/
+dist/
+build/
+.cache/
+
+.env
+.env.*
+config.js
+config.local.js
+
+.vscode/
+
+.DS_Store
+Thumbs.db
