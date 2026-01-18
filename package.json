@@ -1,0 +1,33 @@
+{
+  "name": "yakubovskaya-lawyer-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.2.7",
+    "prettier": "3.7.4",
+    "sass": "^1.97.2",
+    "vite": "^7.2.4"
+  },
+  "lint-staged": {
+    "*.{js,json}": [
+      "npx eslint . --fix",
+      "npx prettier --write"
+    ],
+    "*.{scss,html}": "npx prettier --write"
+  }
+}
