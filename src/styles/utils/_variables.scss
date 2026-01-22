@@ -1,0 +1,24 @@
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;
+$breakpoint-large: 1440px;
+
+$container-max-width: 1440px;
+
+$container-padding-mobile: 1rem;
+$container-padding-tablet: 2rem;
+$container-padding-desktop: 2.5rem;
+$container-padding-large: 3.75rem;
+
+$button-gradient: linear-gradient(
+  180deg,
+  #f6c891 0%,
+  #f5cc93 15%,
+  #f4d095 35%,
+  #f4d497 55%,
+  #f4d699 75%,
+  #f4d79a 100%
+);
+
+$color-bg-primary: #f1ede7;
+$color-bg-secondary: #fffcf9;

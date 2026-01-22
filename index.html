@@ -1,11 +1,153 @@
 <!doctype html>
-<html lang="en">
+<html class="page" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
   </head>
-  <body>
+
+  <body class="page__body">
+    <header class="header">
+      <div class="container">
+        <a href="#" class="header__logo" aria-label="На главную страницу">
+          <img src="/images/logo.svg" alt="" />
+        </a>
+
+        <nav class="header__nav">
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#hero" class="header__menu-link">Об адвокате</a>
+            </li>
+            <li class="header__menu-item header__menu-item--dropdown">
+              <a href="#practice" class="header__menu-link"
+                >Моя специализация</a
+              >
+              <ul class="header__dropdown">
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Дела по кражам, грабежам, разбоям и вымогательствам</a
+                  >
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Дела по мошенничеству</a
+                  >
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Дела по наркотикам</a
+                  >
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Дела по убийствам и причинению вреда здоровью</a
+                  >
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Дела по взяткам и должностным преступлениям</a
+                  >
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Дела по дорожно-транспортным происшествиям</a
+                  >
+                </li>
+                <li class="header__dropdown-item">
+                  <a href="#" class="header__dropdown-link"
+                    >Защита интересов свидетелей и потерпевших</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header__menu-item">
+              <a href="#cases" class="header__menu-link">Дела</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#faq" class="header__menu-link">FAQ</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#contact" class="header__menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__actions">
+          <div class="header__messengers">
+            <a
+              href="https://t.me/YakubovskayaSN"
+              class="header__messenger header__messenger--telegram"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Написать в Telegram"
+            >
+              <img
+                src="/icons/telegram.svg"
+                alt=""
+                class="header__messenger-icon"
+                aria-hidden="true"
+              />
+            </a>
+
+            <a
+              href="https://max.ru/u/f9LHodD0cOIH0JDSG8SC7AY2pFBADDwOr3yy75Jswk7xcLc9bhjWe2b8SFg"
+              class="header__messenger header__messenger--max"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Написать в Max"
+            >
+              <img
+                src="/icons/max.svg"
+                alt=""
+                class="header__messenger-icon"
+                aria-hidden="true"
+              />
+            </a>
+          </div>
+          <a href="tel:+79147833159" class="header__phone">
+            <span class="header__phone-text">+7 914 783-31-59</span>
+          </a>
+          <a href="#" class="header__button button">Консультация</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__content">
+              <h1 class="hero__title">
+                <span class="hero__title-name"
+                  >Якубовская Светлана Николаевна.</span
+                >
+                <span class="hero__title-tagline"
+                  >Ваш адвокат в сложных уголовных делах</span
+                >
+              </h1>
+              <blockquote class="hero__quote">
+                <p class="quote__text" data-wp-field="quote-text">
+                  В работе адвоката нет шаблонов. Каждое дело это история чьей
+                  то жизни, в которой я всегда остаюсь на стороне клиента,
+                  потому что моя работа — защищать.
+                </p>
+              </blockquote>
+              <a href="#" class="hero__button button">
+                Записаться на консультацию
+              </a>
+            </div>
+            <div class="hero__image-wrapper">
+              <img
+                src="/images/hero-photo.webp"
+                alt="Якубовская Светлана Николаевна"
+                class="hero__image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
